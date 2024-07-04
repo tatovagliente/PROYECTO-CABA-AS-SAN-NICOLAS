@@ -1,0 +1,142 @@
+.container-fluid {
+    background-image: linear-gradient(to right, #edf3f3, #9ea1a1ab);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    justify-content: space-between;
+}
+
+.collapse {
+    display: flex;
+    justify-content: flex-end;
+    text-shadow: 0 0 15px #070707;
+    list-style: none;
+    margin: 0 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.Logo {
+    height: 150px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+
+.nav-link {
+    color: #0a0a0a !important;
+}
+
+.navbar-nav a:hover {
+    color: rgb(241, 248, 241);
+    text-shadow: 0 0 5px #a09898;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(140, 179, 169);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* JUMBOTRON INICIA*/
+.jumbotron {
+    position: relative;
+    background-size: cover;
+    width: fit-content;
+    background-position: center;
+    color: blue;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+    padding: 20px; /* Agrega padding para que el contenido no se superponga al borde */
+}
+
+.jumbotron::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(../img/fondo\ transformed.jpeg);
+    opacity: 0.7;
+    z-index: -1; /* Coloca la imagen detrás del contenido */
+    background-size: cover;
+    background-position: center;
+}
+
+.jumbotron h1, .jumbotron p {
+    position: relative;
+    z-index: 1; /* Coloca el texto por encima de la imagen */
+    color: #fff; /* Ajusta el color del texto para que resalte mejor */
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.7); /* Agrega sombra al texto para mayor legibilidad */
+}
+
+@media only screen and (max-width: 540px) {
+    .jumbotron h1 {
+    font-size: 30px;
+    }
+    .jumbotron p {
+    font-size: 25px;
+    }
+}
+/* JUMBOTRON FIN*/
+
+.nosotros {
+    color: #fff;
+    width: 90%;
+    border: 5px solid rgb(119, 108, 104);
+    border-radius: 10px;
+    background-color: rgba(63, 60, 60, 0.705);
+    padding: 15px;
+    font-family: "Roboto", sans-serif;
+    }
+
+h2 {
+    color: #070707;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    font-family: "Helvetica";
+    }
+
+.carousel-container {
+    max-width: 50%;
+    margin: auto;
+}
+
+.carousel-inner {
+    width: 100%;
+    height: 500px; /* Ajusta la altura del contenedor del carrusel */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+

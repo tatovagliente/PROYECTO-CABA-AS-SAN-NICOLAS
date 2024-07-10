@@ -108,7 +108,34 @@
 </div>
 <!-- Fin del Carrusel con descripción -->
 
-
+<h2>CONTACTO</h2>
+<div class="contform">
+    <form action="https://formspree.io/f/xqazkreb" method="POST">
+        <input type="hidden" name="_subject" value="Nuevo mensaje de Cabañas San Nicolas">
+        <input type="hidden" name="_replyto" value="ariel.vagliente@gmail.com">
+        <div class="mb-3 mt-3">
+            <label for="nombre" class="form-label">NOMBRE:</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" name="NOMBRE" required>
+        </div>
+        <div class="mb-3">
+            <label for="apellido" class="form-label">APELLIDO:</label>
+            <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido" name="APELLIDO" required>
+        </div>
+        <div class="mb-3">
+            <label for="telefono" class="form-label">TELEFONO:</label>
+            <input type="text" class="form-control" id="telefono" placeholder="Ingrese su telefono" name="TELEFONO" required>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email:</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingrese su email" name="EMAIL" required>
+        </div>
+        <div class="mb-3">
+            <label for="mensaje" class="form-label">HAGA SU PEDIDO:</label>
+            <textarea class="form-control" rows="5" id="mensaje" name="MENSAJE" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-secondary mb-5 mt-3">ENVIAR</button>
+    </form>
+</div>
     </main>
 
         <!-- Boot incluye CSS y JS (sin popper) -->

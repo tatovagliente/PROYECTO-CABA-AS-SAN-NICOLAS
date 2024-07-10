@@ -140,3 +140,12 @@ h2 {
     object-fit: cover;
 }
 
+/*FORMULARIO CONTACTO */
+.contform {
+    color: #fff;
+    width: 90%;
+    border: 5px solid rgb(119, 108, 104);
+    border-radius: 10px;
+    background-color: rgba(39, 85, 32, 0.705);
+    padding: 15px;
+    }
